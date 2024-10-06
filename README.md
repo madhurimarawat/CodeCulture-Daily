@@ -6,6 +6,8 @@ _“It's not about ideas. It's about making ideas happen.”_ – Scott Belsky
 
 ![CodeCulture-Daily Banner](https://img.shields.io/badge/CodeCulture-Daily%20Challenges-ff69b4?style=for-the-badge&logo=github)
 
+![Illustration 1](https://github.com/user-attachments/assets/cedd7d0f-3082-4ac1-8824-ac1a4650fbea)
+
 Welcome to **CodeCulture-Daily**, your go-to spot for daily programming and tech challenges! 🎉
 
 By practicing daily, you'll not only sharpen your problem-solving skills but also learn and master various tools, technologies, algorithms, and much more. Whether you're starting as a beginner or pushing through advanced levels, **CodeCulture-Daily** is the perfect platform to grow your knowledge. 💡
