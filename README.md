@@ -38,7 +38,8 @@ By practicing daily, you'll not only sharpen your problem-solving skills but als
 
 | **Date (DD-MM-YYYY)**                                                                               | **Problem Name**           | **Level**   | **Domain**                  | **Type** | **Winner** |
 | --------------------------------------------------------------------------------------------------- | -------------------------- | ----------- | --------------------------- | -------- | ---------- |
-| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/06-10-2024">06-10-2024</a> | Medal Assignment Challenge | 🟢 Beginner | Programming Languages (Any) | Tech     | TBA        |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/06-10-2024">06-10-2024</a> | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/06-10-2024/Question.md">Medal Assignment Challenge</a> | 🟢 Beginner | Programming Languages (Any) | Tech     | NA        |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/07-10-2024">07-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/07-10-2024/Question.md"> Perfect Number | 🟢 Beginner | Programming Languages (Any) | Tech     | TBA        |
 
 ---
 
