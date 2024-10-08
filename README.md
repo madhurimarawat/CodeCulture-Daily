@@ -1,14 +1,18 @@
-# 🚀 CodeCulture-Daily - Starting Today! 🌟
+# 🚀 CodeCulture-Daily
 
 A daily programming challenge repository where fun meets learning! Solve challenges, learn new tools and technologies, and get featured as a top contributor. Join now to sharpen your coding skills!
 
-_“It's not about ideas. It's about making ideas happen.”_ – Scott Belsky
-
-![CodeCulture-Daily Banner](https://img.shields.io/badge/CodeCulture-Daily%20Challenges-ff69b4?style=for-the-badge&logo=github)
+<p align="center">
+  <i> “It's not about ideas. It's about making ideas happen.” </i> – Scott Belsky
+  <br> <br>
+  <img src="https://img.shields.io/badge/CodeCulture-Daily%20Challenges-ff69b4?style=for-the-badge&logo=github" alt="CodeCulture-Daily Banner">
+</p>
 
 ![Illustration 1](https://github.com/user-attachments/assets/cedd7d0f-3082-4ac1-8824-ac1a4650fbea)
 
-Welcome to **CodeCulture-Daily**, your go-to spot for daily programming and tech challenges! 🎉
+<p align="center">
+  Welcome to <strong>CodeCulture-Daily</strong>, your go-to spot for daily programming and tech challenges! 🎉
+</p>
 
 By practicing daily, you'll not only sharpen your problem-solving skills but also learn and master various tools, technologies, algorithms, and much more. Whether you're starting as a beginner or pushing through advanced levels, **CodeCulture-Daily** is the perfect platform to grow your knowledge. 💡
 
@@ -39,7 +43,8 @@ By practicing daily, you'll not only sharpen your problem-solving skills but als
 | **Date (DD-MM-YYYY)**                                                                               | **Problem Name**           | **Level**   | **Domain**                  | **Type** | **Winner** |
 | --------------------------------------------------------------------------------------------------- | -------------------------- | ----------- | --------------------------- | -------- | ---------- |
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/06-10-2024">06-10-2024</a> | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/06-10-2024/Question.md">Medal Assignment Challenge</a> | 🟢 Beginner | Programming Languages (Any) | Tech     | NA        |
-| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/07-10-2024">07-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/07-10-2024/Question.md"> Perfect Number | 🟢 Beginner | Programming Languages (Any) | Tech     | TBA        |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/07-10-2024">07-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/07-10-2024/Question.md"> Perfect Number | 🟢 Beginner | Programming Languages (Any) | Tech     | NA        |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/08-10-2024">08-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/08-10-2024/Question.md"> Eddy's Big Interview Adventure | 🟢 Beginner | Soft Skills / Personal Development | Non-Tech     | TBA        |
 
 ---
 
@@ -117,6 +122,12 @@ This project is licensed under the MIT License – see the [LICENSE](https://git
 
 ## 📬 Stay Connected
 
-- **Questions or feedback?** Feel free to open an [issue](https://github.com/madhurimarawat/CodeCulture-Daily/issues) or connect via [GitHub Discussions](https://github.com/madhurimarawat/CodeCulture-Daily/discussions). We’re happy to help!
-- **Follow this repo** to get notified about new challenges and updates! ⭐
+- Drop a 🌟 if you find this repository useful.
+- If you have any doubts or suggestions, feel free to reach: &nbsp; [![Linkedin Badge](https://img.shields.io/badge/-madhurima-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/madhurima-rawat/) &nbsp; &nbsp;
+<a href ="mailto:rawatmadhurima@gmail.com"><img src="https://github.com/madhurimarawat/Machine-Learning-Using-Python/assets/105432776/b6a0873a-e961-42c0-8fbf-ab65828c961a" height=35 width=30 title="Mail Illustration" alt="Mail Illustration📫" > </a><br>
+
+- **Questions or feedback?**  
+&nbsp; Feel free to open an [issue](https://github.com/madhurimarawat/CodeCulture-Daily/issues) or connect via [GitHub Discussions](https://github.com/madhurimarawat/CodeCulture-Daily/discussions). We’re happy to help!<br>
+
+- **Follow this repo** to get notified about new challenges and updates! ⭐  
 - 👩‍💻 **Happy Coding!**
