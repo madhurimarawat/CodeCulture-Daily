@@ -44,7 +44,8 @@ By practicing daily, you'll not only sharpen your problem-solving skills but als
 | --------------------------------------------------------------------------------------------------- | -------------------------- | ----------- | --------------------------- | -------- | ---------- |
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/06-10-2024">06-10-2024</a> | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/06-10-2024/Question.md">Medal Assignment Challenge</a> | 🟢 Beginner | Programming Languages (Any) | Tech     | NA        |
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/07-10-2024">07-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/07-10-2024/Question.md"> Perfect Number | 🟢 Beginner | Programming Languages (Any) | Tech     | NA        |
-| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/08-10-2024">08-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/08-10-2024/Question.md"> Eddy's Big Interview Adventure | 🟢 Beginner | Soft Skills / Personal Development | Non-Tech     | TBA        |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/08-10-2024">08-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/08-10-2024/Question.md"> Eddy's Big Interview Adventure | 🟢 Beginner | Soft Skills / Personal Development | Non-Tech     | NA        |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/09-10-2024">09-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/09-10-2024/Question.md"> Caesar Cipher | 🟢 Beginner | Programming Languages (Any) | Tech     | TBA        |
 
 ---
 
