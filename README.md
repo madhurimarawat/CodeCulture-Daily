@@ -8,7 +8,7 @@ A daily programming challenge repository where fun meets learning! Solve challen
   <img src="https://img.shields.io/badge/CodeCulture-Daily%20Challenges-ff69b4?style=for-the-badge&logo=github" alt="CodeCulture-Daily Banner">
 </p>
 
-![Illustration 1](https://github.com/user-attachments/assets/cedd7d0f-3082-4ac1-8824-ac1a4650fbea)
+<a href ="https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/docs/images/Illustration%201.webp"> <img src = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/docs/images/Illustration%201.webp" title="Illustration 1" alt="Illustration 1"></a>
 
 <p align="center">
   Welcome to <strong>CodeCulture-Daily</strong>, your go-to spot for daily programming and tech challenges! 🎉
@@ -101,12 +101,11 @@ Example folder structure for a challenge:
 
 Below are the previews of the designed website for the CodeCulture Daily project, along with a screenshot of the dedicated documentation page:
 
-![Screenshot 1](https://github.com/user-attachments/assets/0fe20226-d41f-4784-b390-2a1a1075fb5d)
+<a href = "https://madhurimarawat.github.io/CodeCulture-Daily/"><img src = "https://github.com/user-attachments/assets/0fe20226-d41f-4784-b390-2a1a1075fb5d" title= "Website Main Page" alt = "Website Main Page"></a>
 
+<a href = "https://madhurimarawat.github.io/CodeCulture-Daily/" title= "Website Main Page" alt = "Website Main Page"><img src = "https://github.com/user-attachments/assets/4d51b7f4-8aab-45eb-8131-7e5511fdb091"></a>
 
-![Screenshot 2](https://github.com/user-attachments/assets/4d51b7f4-8aab-45eb-8131-7e5511fdb091)
-
-![Screenshot 3](https://github.com/user-attachments/assets/120358e2-81c3-4598-a72a-818d2e2f481a)
+<a href = "https://madhurimarawat.github.io/CodeCulture-Daily/Documentation.html" title= "Website Documenatation Page" alt = "Website Documenatation Page"><img src = "https://github.com/user-attachments/assets/120358e2-81c3-4598-a72a-818d2e2f481a"></a>
 
 ---
 
