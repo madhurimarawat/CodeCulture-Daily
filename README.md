@@ -45,7 +45,8 @@ By practicing daily, you'll not only sharpen your problem-solving skills but als
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/06-10-2024">06-10-2024</a> | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/06-10-2024/Question.md">Medal Assignment Challenge</a> | 🟢 Beginner | Programming Languages (Any) | Tech     | NA        |
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/07-10-2024">07-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/07-10-2024/Question.md"> Perfect Number | 🟢 Beginner | Programming Languages (Any) | Tech     | NA        |
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/08-10-2024">08-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/08-10-2024/Question.md"> Eddy's Big Interview Adventure | 🟢 Beginner | Soft Skills / Personal Development | Non-Tech     | NA        |
-| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/09-10-2024">09-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/09-10-2024/Question.md"> Caesar Cipher | 🟢 Beginner | Programming Languages (Any) | Tech     | TBA        |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/09-10-2024">09-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/09-10-2024/Question.md"> Caesar Cipher | 🟢 Beginner | Programming Languages (Any) | Tech     | NA        |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/10-10-2024">10-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/10-10-2024/Question.md"> Matrix Zigzag Order | 🟡 Intermediate | Data Structures (2D Arrays) | Tech     | TBA        |
 
 ---
 
@@ -101,9 +102,9 @@ Example folder structure for a challenge:
 
 Below are the previews of the designed website for the CodeCulture Daily project, along with a screenshot of the dedicated documentation page:
 
-<a href = "https://madhurimarawat.github.io/CodeCulture-Daily/"><img src = "https://github.com/user-attachments/assets/0fe20226-d41f-4784-b390-2a1a1075fb5d" title= "Website Main Page" alt = "Website Main Page"></a>
+<a href = "https://madhurimarawat.github.io/CodeCulture-Daily/"><img src = "https://github.com/user-attachments/assets/a3bfeab0-aa38-47ed-ad07-3a9a7b8906c7" title= "Website Main Page" alt = "Website Main Page"></a>
 
-<a href = "https://madhurimarawat.github.io/CodeCulture-Daily/" title= "Website Main Page" alt = "Website Main Page"><img src = "https://github.com/user-attachments/assets/4d51b7f4-8aab-45eb-8131-7e5511fdb091"></a>
+<a href = "https://madhurimarawat.github.io/CodeCulture-Daily/" title= "Website Main Page" alt = "Website Main Page"><img src = "https://github.com/user-attachments/assets/4543347b-4c02-41b4-99f7-74dfedef6049"></a>
 
 <a href = "https://madhurimarawat.github.io/CodeCulture-Daily/Documentation.html" title= "Website Documenatation Page" alt = "Website Documenatation Page"><img src = "https://github.com/user-attachments/assets/120358e2-81c3-4598-a72a-818d2e2f481a"></a>
 
