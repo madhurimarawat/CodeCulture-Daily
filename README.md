@@ -61,16 +61,52 @@ Example folder structure for a challenge:
 
 ```plaintext
 📁 CodeCulture-Daily/
-   ├── 📁 06-10-2024/
-       ├── Question.md
-       ├── solution_johndoe.py
-       └── Explanation.md (optional)
-   ├── 📁 07-10-2024/
-       ├── Question.md
-       ├── solution_janedoe.js
-       └── Explanation.md (optional)
-   └── ...
+├── docs/                      # 🗂️ Folder containing website code
+│   ├── README.md              # 📄 Documentation file for the repository
+│   ├── Documentation.html     # 📚 Page dedicated to documentation
+│   ├── images/                # 📷 Folder for images
+│   │   ├── Logo.png           # 🖼️ Logo image
+│   │   ├── Illustration1.webp # 🖼️ First illustration in WebP format
+│   │   ├── Illustration2.webp # 🖼️ Second illustration in WebP format
+│   │   └── Illustration3.png  # 🖼️ Third illustration in PNG format
+│   ├── css/                   # 🎨 Folder for stylesheets
+│   │   ├── index.css          # 🎨 Stylesheet for main landing page
+│   │   └── documentation.css  # 🎨 Stylesheet for documentation pages
+│   └── js/                    # 🖥️ Folder for scripts
+│       ├── index.js           # 🖥️ Script for main functionalities
+│       └── documentation.js   # 📜 Script for documentation page functionalities
+│
+├── 06-10-2024/                # 📅 Date-specific folder for problems
+│   ├── Question.md            # ❓ Problem statement
+│   ├── Solution_johndoe.ext   # 💻 User solution code (example: Python)
+│   ├── Explanation_johndoe.md # 📜 Optional explanation of the solution
+│   ├── Solution.ext           # 💼 Official solution (file extension can vary)
+│   └── Explanation.md         # 📜 Official explanation of the solution
+│
+├── 07-10-2024/                # 📅 Date-specific folder for problems
+│   ├── Question.md            # ❓ Problem statement
+│   ├── Solution_janedoe.ext   # 💻 User solution code (example: JavaScript)
+│   ├── Explanation_janedoe.md # 📜 Optional explanation of the solution
+│   ├── Solution.ext           # 💼 Official solution (file extension can vary)
+│   └── Explanation.md         # 📜 Official explanation of the solution
+└── ...
+│
+├── LICENSE                    # 📜 MIT License file
+└── README.md                  # 📄 Documentation for the repository
 ```
+
+---
+
+## Website Design
+
+Below are the previews of the designed website for the CodeCulture Daily project, along with a screenshot of the dedicated documentation page:
+
+![Screenshot 1](https://github.com/user-attachments/assets/0fe20226-d41f-4784-b390-2a1a1075fb5d)
+
+
+![Screenshot 2](https://github.com/user-attachments/assets/4d51b7f4-8aab-45eb-8131-7e5511fdb091)
+
+![Screenshot 3](https://github.com/user-attachments/assets/120358e2-81c3-4598-a72a-818d2e2f481a)
 
 ---
 
@@ -132,3 +168,11 @@ This project is licensed under the MIT License – see the [LICENSE](https://git
 
 - **Follow this repo** to get notified about new challenges and updates! ⭐  
 - 👩‍💻 **Happy Coding!**
+
+---
+
+## Resources
+
+In this section, we will provide links to all the resources utilized in this project:
+
+1. Logos and images were generated using ChatGPT: <a href = "https://chatgpt.com/">ChatGPT</a>
