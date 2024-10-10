@@ -1,0 +1,212 @@
+/*
+*********************************************************************************************
+* File: index.css
+* Author: Madhurima Rawat
+* Date: October 10, 2024
+* Description: CSS styles for the main page of the CodeCulture website, providing styling for 
+*               navigation, cards, tool buttons, sliders, and other UI elements to enhance user 
+*               experience and visual appeal.
+* Version: 1.0
+* GitHub Repository: https://github.com/madhurimarawat/CodeCulture-Daily
+* Issues/Bugs: For any issues or bugs, please visit the GitHub repository's [Issues](https://github.com/madhurimarawat/CodeCulture-Daily/issues) section.
+* Comments: This CSS file includes styles for the navigation bar, cards, tool buttons, banners, 
+*           and footer. It utilizes a color palette centered around hot pink and light blue, 
+*           along with transitions and hover effects for an engaging user interface.
+* Dependencies:
+    - **Bootstrap 4.5.2**: External CSS for responsive design and components.
+    - **Font Awesome 6.0.0-beta3**: External CSS for icons.
+* Design Notes:
+    - **Color Scheme**: A vibrant palette featuring hot pink (#ee6ba9) and light blue (#6cb2eb), 
+    *               creating an energetic and inviting atmosphere.
+    - **Navigation Bar**: Styled with a hot pink background, featuring a logo and hover effects 
+    *               to enhance usability.
+    - **Card Design**: Cards are designed with smooth rounded corners, shadows, and hover effects 
+    *               to provide a tactile feel, with consistent heights and responsive layouts.
+    - **Hover Effects**: Implemented on cards and buttons to create interactive feedback, enhancing 
+    *               the overall user experience.
+    - **Responsive Layout**: Leveraging Bootstrap's grid system for layout consistency across 
+    *               different screen sizes.
+    - **Accessibility**: Ensuring text contrasts adequately with background colors for readability 
+    *               and accessibility.
+*********************************************************************************************
+*/
+
+/* Navigation Bar color */
+.navbar {
+    background-color: #ee6ba9;
+    /* Hot Pink */
+}
+
+/* Styling for logo */
+.logo {
+    width: 40px;
+    /* Adjust the size of the logo as needed */
+    height: 40px;
+    /* Ensure equal height for a perfect circle */
+    margin-right: 10px;
+    /* Space between the logo and text */
+    border-radius: 50%;
+    /* Make the logo circular */
+}
+
+.card {
+    border: 2px solid #ee6ba9 !important;
+    /* Add a border with a light gray color */
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #FFFFF0 !important;
+    /* Light Grey */
+    border-radius: 25px !important;
+    /* Increase radius for smoother corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    /* Added transition for border color */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /* Scale up slightly on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    /* Enhanced shadow on hover */
+    border-color: #aaa;
+    /* Change border color on hover for a subtle effect */
+}
+
+.problem-card {
+    color: black !important;
+    /* Ensure all text is black */
+}
+
+/* Style for links in the card */
+.problem-card a {
+    color: black !important;
+    /* Links are black */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.problem-card a:hover {
+    color: #ee6ba9 !important;
+    /* Links turn blue on hover */
+    text-decoration: underline;
+    /* Optional: underline on hover */
+}
+
+/* Set consistent height for the card body */
+.problem-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.problem-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px;
+}
+
+/* Ensure card titles have the same height */
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    min-height: 60px;
+    /* Adjust this based on your text size */
+}
+
+/* Ensure card text and other details maintain consistency */
+.card-text {
+    flex-grow: 1;
+    font-size: 0.9rem;
+}
+
+/* Make sure the cards have a minimum height */
+.card {
+    min-height: 250px;
+    /* Adjust as per your needs */
+}
+
+/* Add padding between cards */
+.row>.col-md-4 {
+    margin-bottom: 20px;
+}
+
+.slider {
+    height: 500px;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    height: 500px;
+}
+
+.blue-theme {
+    background-color: #6cb2eb;
+    /* Blue */
+}
+
+.container {
+    text-align: center;
+}
+
+.heading {
+    color: #ee6ba9;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    /* Centers the content horizontally */
+    margin-bottom: 20px;
+}
+
+.quote {
+    font-style: italic;
+    margin-top: 10px;
+    color: #6c757d;
+}
+
+.spacer {
+    margin-top: 30px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #ee6ba9;
+    /* Use your desired color */
+    text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.1);
+    /* Optional shadow effect */
+}
+
+/* Styling for tool buttons */
+.tool-button {
+    display: inline-block;
+    background-color: white;
+    /* Light purple background */
+    color: black;
+    /* White text */
+    border: 2px solid #ee6ba9;
+    /* Pink border */
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for tool buttons */
+.tool-button:hover {
+    background-color: #ee6ba9;
+    /* Pink background on hover */
+    color: #ffffff;
+    /* White text on hover */
+}
+
+footer {
+    background-color: #ee6ba9;
+    /* Hot Pink */
+    color: white;
+}

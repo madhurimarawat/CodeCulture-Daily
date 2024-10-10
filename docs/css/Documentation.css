@@ -1,0 +1,151 @@
+/*
+*********************************************************************************************
+* File: Documentation.css
+* Author: Madhurima Rawat
+* Date: October 10, 2024
+* Description: CSS styles for the documentation page of the CodeCulture repository, providing 
+*               a consistent look and feel for cards, tables, dropdown menus, and responsive 
+*               layouts to enhance usability and readability.
+* Version: 1.0
+* GitHub Repository: https://github.com/madhurimarawat/CodeCulture-Daily
+* Issues/Bugs: For any issues or bugs, please visit the GitHub repository's [Issues](https://github.com/madhurimarawat/CodeCulture-Daily/issues) section.
+* Comments: This CSS file contains styles for aligning text, customizing table appearances, and 
+*           styling dropdown menus. It ensures a responsive design that adapts to different screen 
+*           sizes while maintaining visual consistency.
+* Dependencies:
+    - **Bootstrap 4.5.2**: External CSS for responsive design and components.
+* Design Notes:
+    - **Alignment Styles**: Text is justified for improved readability, ensuring a clean layout.
+    - **Card Styles**: Cards are designed without borders, featuring light grey backgrounds, smooth 
+    *               corners, and subtle shadows for a modern appearance.
+    - **Table Styling**: Tables are fully responsive, with specific styles for headers and cells to 
+    *               enhance readability and user interaction.
+    - **Dropdown Menu Customization**: Hover and active states for dropdown items are styled for 
+    *               visual feedback, utilizing a vibrant pink color scheme.
+    - **Link Styles**: Table links are styled with a darker pink, providing a clear visual cue on 
+    *               hover and focus states.
+    - **Media Queries**: Responsive adjustments for smaller screens, including horizontal scrolling 
+    *               for tables to ensure usability across devices.
+    - **Accessibility**: Ensures adequate contrast for text colors against backgrounds for improved 
+    *               readability and accessibility.
+*********************************************************************************************
+*/
+
+/* Alignments */
+.alignment {
+    text-align: justify !important;
+}
+
+/* Base Styles */
+.card {
+    border: none;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #FFFFF0 !important;
+    /* Light Grey */
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* Smooth corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 5px;
+    /* Add padding for spacing inside the card */
+}
+
+/* Table Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    /* Remove margin */
+    box-sizing: border-box;
+    /* Include padding in width calculations */
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    /* Set a base font size */
+}
+
+/* css/Resources.css */
+
+/* Change hover color for dropdown menu items */
+.dropdown-menu .dropdown-item:hover {
+    background-color: #ee6ba9;
+    /* Desired hover background color */
+    color: #ffffff;
+    /* Desired hover text color */
+}
+
+/* Change active (clicked) color for dropdown menu items */
+.dropdown-menu .dropdown-item:active,
+.dropdown-menu .dropdown-item:focus {
+    background-color: #ee6ba9;
+    /* Desired active background color */
+    color: #ffffff;
+    /* Desired active text color */
+}
+
+/* Table Links */
+.table a {
+    color: #ee6ba9 !important;
+    /* Darker pink for table links */
+}
+
+.table a:hover {
+    color: #a71d49 !important;
+    /* Even darker pink on hover */
+    text-decoration: underline !important;
+}
+
+#contributing-guidelines a,
+#posting-schedule a {
+    color: #FF69B4;
+    /* link color */
+    text-decoration: none;
+}
+
+#contributing-guidelines a:hover,
+#posting-schedule a:hover {
+    color: #FF1493;
+    /* hover color */
+    text-decoration: underline;
+    /* underline on hover */
+}
+
+/* Media Query for Smaller Screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .table {
+        display: block;
+        overflow-x: auto;
+        /* Make the table scroll horizontally on small screens */
+        white-space: nowrap;
+        /* Prevent wrapping inside table cells */
+    }
+
+    .table th,
+    .table td {
+        font-size: 12px;
+        /* Adjust font size for smaller screens */
+        padding: 10px;
+        /* Adjust padding */
+    }
+}
+
+/* Media Query for Very Small Devices (max-width: 390px) */
+@media (max-width: 390px) {
+
+    .table th,
+    .table td {
+        font-size: 10px;
+        /* Reduce font size for very small screens */
+        padding: 8px;
+        /* Adjust padding */
+    }
+}
