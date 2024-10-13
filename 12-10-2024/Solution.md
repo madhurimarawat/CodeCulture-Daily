@@ -5,9 +5,12 @@ To convert Markdown to PDF, we can utilize both online tools and local software.
 #### **Online Tools**
 
 1. **md2pdf**:
+
    - A straightforward online tool for converting Markdown to PDF, accessible [here](https://md2pdf.netlify.app/).
-   - **Advantages**: Quick and easy to use; highlights important keywords in commands like `SELECT` and `JOIN`.
+   - **Advantages**: Fast and user-friendly, offering color support to highlight key commands like `SELECT` and `JOIN`, as well as syntax highlighting for code blocks and keywords.
+
    - **Disadvantages**: Does not handle wide tables well (horizontally large tables are cut off).
+
 2. **Markdown to PDF**:
    - Another user-friendly online converter, accessible [here](https://www.markdowntopdf.com/). Note that after one conversion, login is required, and three conversions are allowed before requiring a premium account.
    - **Advantages**: Handles horizontally large tables well; layout is similar to GitHub’s Markdown preview.
