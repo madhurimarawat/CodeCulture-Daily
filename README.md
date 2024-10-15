@@ -50,7 +50,8 @@ By practicing daily, you'll not only sharpen your problem-solving skills but als
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/11-10-2024">11-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/11-10-2024/Question.md"> Navigating the Unknown | 🟢 Beginner | Soft Skills / Interview Preparation | Non-Tech     | NA        |
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/12-10-2024">12-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/12-10-2024/Question.md"> Markdown to PDF Conversion | 🟢 Beginner | Tools and Technology | Tech     | NA        |
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/13-10-2024">13-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/13-10-2024/Question.md"> Complex Number Operations | 🟡 Intermediate | Programming (C Language) | Tech     | NA        |
-| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/14-10-2024">14-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/14-10-2024/Question.md"> Prime Number Efficiency Optimization | 🟡 Intermediate | Refactoring/Documentation | Tech     | TBA        |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/14-10-2024">14-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/14-10-2024/Question.md"> Prime Number Efficiency Optimization | 🟡 Intermediate | Refactoring/Documentation | Tech     | NA        |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/15-10-2024">15-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/15-10-2024/Question.md"> Code Formatting Tools for C and C++ Files | 🟢 Beginner | Tools and Technology | Tech     | TBA        |
 
 ---
 
