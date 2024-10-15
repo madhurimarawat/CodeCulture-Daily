@@ -1,4 +1,4 @@
-## Code Breakdown
+## Code Breakdown with Detailed Explanation and Example
 
 ### Import Statements
 
@@ -7,7 +7,8 @@ import time
 import math
 ```
 
-- The `time` module is used for measuring the execution time of the algorithm. The `math` module is imported but not utilized in this implementation.
+- **`time` Module**: Used for measuring the execution time of the algorithm. This helps in assessing the efficiency of the implementation.
+- **`math` Module**: Although imported here, it is not utilized in this particular implementation. It can be removed to clean up the code.
 
 ### `sieve_of_eratosthenes` Function
 
@@ -17,32 +18,42 @@ def sieve_of_eratosthenes(limit):
     p = 2
 ```
 
-- **Initialization**: A boolean list `primes` is created, with all entries initialized to `True`, indicating that all numbers are initially considered prime. The list has a length of `limit + 1` to include the `limit` itself.
-- The variable `p` is set to 2, the smallest prime number.
+- **Initialization**:
+  - **`primes` List**: Creates a boolean list where each index represents a number. All entries are initially set to `True`, assuming all numbers are prime. The list size is `limit + 1` to include the `limit` itself.
+  - **`p` Variable**: Starts at 2, the smallest prime number.
 
-#### Main Loop to Mark Non-Primes
+### Main Loop to Mark Non-Primes
 
 ```python
-while p * p <= limit:
-    if primes[p]:
-        for multiple in range(p * p, limit + 1, p):
-            primes[multiple] = False
-    p += 1
+    while p * p <= limit:
+        if primes[p]:
+            for multiple in range(p * p, limit + 1, p):
+                primes[multiple] = False
+        p += 1
 ```
 
-- **Outer Loop**: The loop continues until `p^2` exceeds the limit. This is efficient because if `p` is prime, all of its multiples greater than `p^2` will have already been marked as non-prime by smaller prime factors.
-
-- **Inner Loop**: When a prime `p` is found, the inner loop marks all multiples of `p`, starting from `p^2` to the `limit`, as `False` (non-prime). This avoids redundant checks for smaller multiples that have already been marked.
-
-- **Increment `p`**: After processing, `p` is incremented to check the next number.
+- **Outer Loop (`while p * p <= limit`)**:
+  - Continues looping as long as the square of `p` is less than or equal to the `limit`. This is because a larger factor of a number must be paired with a smaller factor that has already been checked.
+- **Prime Check (`if primes[p]`)**:
+  - If `primes[p]` is `True`, `p` is a prime number.
+- **Inner Loop (`for multiple in range(p * p, limit + 1, p)`)**:
+  - Marks all multiples of `p` starting from `p^2` as `False` (non-prime).
+  - Starting from `p^2` is an optimization since any smaller multiple of `p` would have already been marked by smaller primes.
+- **Increment `p`**:
+  - Moves to the next number to check for primality.
 
 ### Collection of Prime Numbers
 
 ```python
-prime_numbers = [p for p in range(2, limit) if primes[p]]
+    prime_numbers = [p for p in range(2, limit) if primes[p]]
+    return prime_numbers
 ```
 
-- A list comprehension collects all indices `p` where `primes[p]` is `True`, resulting in a list of all prime numbers found between 2 and the specified limit.
+- **List Comprehension**:
+  - Iterates through the `primes` list starting from 2 up to `limit`.
+  - Collects all numbers `p` where `primes[p]` is `True`, indicating they are prime numbers.
+- **Return Statement**:
+  - Returns the list of prime numbers found.
 
 ### Execution Timing and Output
 
@@ -55,23 +66,138 @@ print(f"Sieve of Eratosthenes: Total Prime Numbers Found: {len(primes_sieve)}")
 print(f"Execution Time (Sieve): {end_time - start_time:.6f} seconds")
 ```
 
-- The execution time is measured by capturing the time before and after the function call. The results include the total number of primes found and the time taken to compute them.
+- **Timing the Execution**:
+  - **`start_time`**: Captures the current time before the sieve function starts.
+  - **`end_time`**: Captures the time after the sieve function completes.
+  - **Execution Time**: Calculated by subtracting `start_time` from `end_time`, giving the total time taken to execute the sieve.
+- **Output**:
+  - Prints the total number of prime numbers found and the time taken to compute them.
 
-## Explanation of Improvements
+### Detailed Example: Sieve of Eratosthenes in Action
 
-- **Algorithm Efficiency**: The Sieve of Eratosthenes has a time complexity of **O(n log log n)**, significantly faster than previous methods that checked each number individually.
+Let's walk through an example with a smaller limit to clearly illustrate how the algorithm works.
 
-- **Descriptive Variable Names**: Variable names like `limit`, `primes`, and `prime_numbers` clearly convey their purpose.
+**Example Limit**: 10
 
-- **Optimized Looping**: The algorithm avoids redundant checks by only iterating up to the square root of the limit and efficiently marking multiples of each prime.
+**Initial Setup**:
 
-- **Proper Documentation**: Each function has a detailed docstring, and inline comments explain the logic behind key operations.
+```python
+limit = 10
+primes = [True] * 11  # Index 0 to 10
+p = 2
+```
 
-## Performance Comparison
+**Initial `primes` List**:
+
+```
+Index:  0 1 2 3 4 5 6 7 8 9 10
+Value: [F, F, T, T, T, T, T, T, T, T, T]
+```
+
+_Note: Index 0 and 1 are set to `False` because 0 and 1 are not prime numbers._
+
+**Step-by-Step Execution**:
+
+1. **First Iteration (`p = 2`)**:
+
+   - **Check**: `2 * 2 = 4` which is ≤ `10`.
+   - **Mark Multiples of 2**:
+     - Start from `4` (`2^2`) and mark every multiple of `2` as `False`.
+     - Mark `4`, `6`, `8`, `10` as `False`.
+   - **Updated `primes` List**:
+     ```
+     Index:  0 1 2 3 4 5 6 7 8 9 10
+     Value: [F, F, T, T, F, T, F, T, F, T, F]
+     ```
+   - **Increment `p`**: Now, `p = 3`.
+
+2. **Second Iteration (`p = 3`)**:
+
+   - **Check**: `3 * 3 = 9` which is ≤ `10`.
+   - **Mark Multiples of 3**:
+     - Start from `9` (`3^2`) and mark every multiple of `3` as `False`.
+     - Mark `9` as `False`.
+   - **Updated `primes` List**:
+     ```
+     Index:  0 1 2 3 4 5 6 7 8 9 10
+     Value: [F, F, T, T, F, T, F, T, F, F, F]
+     ```
+   - **Increment `p`**: Now, `p = 4`.
+
+3. **Termination**:
+   - **Check**: `4 * 4 = 16` which is > `10`.
+   - **Exit Loop**.
+
+**Final `primes` List**:
+
+```
+Index:  0 1 2 3 4 5 6 7 8 9 10
+Value: [F, F, T, T, F, T, F, T, F, F, F]
+```
+
+**Extracting Prime Numbers**:
+
+- Iterate through indices `2` to `10` and collect those with `True` values.
+- **Primes Found**: `2, 3, 5, 7`
+
+### Explanation of Improvements
+
+- **Algorithm Efficiency**:
+  - **Time Complexity**: The Sieve of Eratosthenes operates in **O(n log log n)** time, which is significantly faster than checking each number individually for primality (which would be **O(n√n)**).
+  - **Space Efficiency**: Uses a boolean list to keep track of prime numbers, which is memory efficient for large `n`.
+- **Descriptive Variable Names**:
+  - **`limit`**: Clearly indicates the upper bound for prime number search.
+  - **`primes`**: Represents the sieve array holding prime status.
+  - **`prime_numbers`**: Clearly denotes the list of primes extracted from the sieve.
+- **Optimized Looping**:
+  - **Looping Until `p^2 <= limit`**: Reduces unnecessary iterations, as larger factors would have been handled by smaller primes.
+  - **Starting Inner Loop at `p^2`**: Avoids redundant marking of multiples, enhancing efficiency.
+- **Proper Documentation**:
+  - **Inline Comments**: Explain the purpose of each code block and critical operations.
+  - **Function Documentation**: Docstrings are added to functions to further improve clarity and maintainability.
+
+### Performance Comparison
 
 | Algorithm                   | Time Taken (Seconds) | Prime Numbers Found |
 | --------------------------- | -------------------- | ------------------- |
 | Original (Inefficient Loop) | 1.243126             | 1229                |
 | Sieve of Eratosthenes       | 0.012532             | 1229                |
 
-The Sieve of Eratosthenes shows a substantial reduction in execution time while producing the same number of prime numbers.
+**Analysis**:
+
+- **Execution Time**: The Sieve of Eratosthenes is **significantly faster**, reducing the execution time from approximately **1.24 seconds** to **0.0125 seconds** for finding primes up to 10,000.
+- **Prime Numbers Found**: Both algorithms correctly identify the same number of prime numbers (**1229**), ensuring that the sieve's optimizations do not compromise accuracy.
+
+### Visual Example: Finding Primes Up to 10
+
+Let's visualize the sieve process step-by-step for `limit = 10`.
+
+1. **Initial State**:
+   ```
+   Numbers: 0 1 2 3 4 5 6 7 8 9 10
+   Prime? : F F T T T T T T T T T
+   ```
+2. **First Prime (`p = 2`)**:
+   - Mark multiples of 2 (starting from 4) as non-prime.
+   ```
+   Numbers: 0 1 2 3 4 5 6 7 8 9 10
+   Prime? : F F T T F T F T F T F
+   ```
+3. **Next Prime (`p = 3`)**:
+   - Mark multiples of 3 (starting from 9) as non-prime.
+   ```
+   Numbers: 0 1 2 3 4 5 6 7 8 9 10
+   Prime? : F F T T F T F T F F F
+   ```
+4. **Termination**:
+
+   - `p = 4` exceeds `sqrt(10) ≈ 3.16`, so the sieve stops.
+
+5. **Final Prime List**:
+   ```
+   Primes: 2, 3, 5, 7
+   ```
+
+### Conclusion
+
+The Sieve of Eratosthenes is an efficient and effective algorithm for finding all prime numbers up to a specified limit. By systematically marking non-prime numbers, it reduces the computational complexity compared to naive methods. The use of descriptive variable names and optimized looping structures further enhances the readability and performance of the implementation. The significant reduction in execution time, as demonstrated in the performance comparison, highlights the algorithm's superiority for large-scale prime number generation.
