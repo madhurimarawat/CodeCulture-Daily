@@ -40,6 +40,8 @@ By practicing daily, you'll not only sharpen your problem-solving skills but als
 
 ## 📚 Table of Contents
 
+**TBA**: *To Be Announced*
+
 | **Date (DD-MM-YYYY)**                                                                               | **Problem Name**           | **Level**   | **Domain**                  | **Type** | **Winner** |
 | --------------------------------------------------------------------------------------------------- | -------------------------- | ----------- | --------------------------- | -------- | ---------- |
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/06-10-2024">06-10-2024</a> | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/06-10-2024/Question.md">Medal Assignment Challenge</a> | 🟢 Beginner | Programming Languages (Any) | Tech     | NA        |
@@ -51,7 +53,8 @@ By practicing daily, you'll not only sharpen your problem-solving skills but als
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/12-10-2024">12-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/12-10-2024/Question.md"> Markdown to PDF Conversion | 🟢 Beginner | Tools and Technology | Tech     | NA        |
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/13-10-2024">13-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/13-10-2024/Question.md"> Complex Number Operations | 🟡 Intermediate | Programming (C Language) | Tech     | NA        |
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/14-10-2024">14-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/14-10-2024/Question.md"> Prime Number Efficiency Optimization | 🟡 Intermediate | Refactoring/Documentation | Tech     | NA        |
-| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/15-10-2024">15-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/15-10-2024/Question.md"> Code Formatting Tools for C and C++ Files | 🟢 Beginner | Tools and Technology | Tech     | TBA        |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/15-10-2024">15-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/15-10-2024/Question.md"> Code Formatting Tools for C and C++ Files | 🟢 Beginner | Tools and Technology | Tech     | NA        |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/16-10-2024">16-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/16-10-2024/Question.md"> Handling Conflict in a Team | 🟢 Beginner | Soft Skills / Teamwork | Non-Tech     | TBA        |
 
 ---
 
