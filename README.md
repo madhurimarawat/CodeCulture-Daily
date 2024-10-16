@@ -40,7 +40,7 @@ By practicing daily, you'll not only sharpen your problem-solving skills but als
 
 ## 📚 Table of Contents
 
-**TBA**: *To Be Announced*
+**TBA**: *To Be Announced* | **NA**: *Not Applicable*
 
 | **Date (DD-MM-YYYY)**                                                                               | **Problem Name**           | **Level**   | **Domain**                  | **Type** | **Winner** |
 | --------------------------------------------------------------------------------------------------- | -------------------------- | ----------- | --------------------------- | -------- | ---------- |
