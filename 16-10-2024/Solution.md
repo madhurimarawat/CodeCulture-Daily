@@ -1,4 +1,4 @@
-### Suggested Solution
+### Handling Conflict in a Team
 
 1. **Listening and Understanding Perspectives**  
    Set up a team meeting where everyone, especially the backend developer, can express their reasons for preferring Vue.js. Be sure to listen without interrupting, showing empathy for their experience and concerns. You should also explain why you prefer React, highlighting its benefits such as ease of use, scalability, and the community support behind it.
