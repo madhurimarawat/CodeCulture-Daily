@@ -56,7 +56,8 @@ By practicing daily, you'll not only sharpen your problem-solving skills but als
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/15-10-2024">15-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/15-10-2024/Question.md"> Code Formatting Tools for C and C++ Files | 🟢 Beginner | Tools and Technology | Tech     | NA        |
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/16-10-2024">16-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/16-10-2024/Question.md"> Handling Conflict in a Team | 🟢 Beginner | Soft Skills / Teamwork | Non-Tech     | NA        |
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/17-10-2024">17-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/17-10-2024/Question.md"> VBA Code to Create PowerPoint from Normal Data | 🟢 Beginner | Tools and Technology | Tech     | NA        |
-| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/18-10-2024">18-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/18-10-2024/Question.md"> Output of C Code | 🟢 Beginner | Programming Languages (C) | Tech     | TBA        |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/18-10-2024">18-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/18-10-2024/Question.md"> Output of C Code | 🟢 Beginner | Programming Languages (C) | Tech     | NA        |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/19-10-2024">19-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/19-10-2024/Question.md"> Data Visualization Using Python for NBA Dataset | 🟡 Intermediate | Data Visualization | Tech     | TBA        |
 
 ---
 
@@ -92,14 +93,14 @@ Example folder structure for a challenge:
 │   ├── Solution_johndoe.ext   # 💻 User solution code (example: Python)
 │   ├── Explanation_johndoe.md # 📜 Optional explanation of the solution
 │   ├── Solution.ext           # 💼 Official solution (file extension can vary)
-│   └── Explanation.md         # 📜 Official explanation of the solution
+│   └── Explanation.md         # 📜 Official explanation of the solution (file extension can vary md or pdf)
 │
 ├── 07-10-2024/                # 📅 Date-specific folder for problems
 │   ├── Question.md            # ❓ Problem statement
 │   ├── Solution_janedoe.ext   # 💻 User solution code (example: JavaScript)
 │   ├── Explanation_janedoe.md # 📜 Optional explanation of the solution
 │   ├── Solution.ext           # 💼 Official solution (file extension can vary)
-│   └── Explanation.md         # 📜 Official explanation of the solution
+│   └── Explanation.pdf         # 📜 Official explanation of the solution (file extension can vary md or pdf)
 └── ...
 │
 ├── LICENSE                    # 📜 MIT License file
