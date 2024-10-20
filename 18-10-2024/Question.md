@@ -1,4 +1,4 @@
-### **Question.md: Output of C Code**
+### **Question: Output of C Code**
 
 **Difficulty Level:** 🟢 Beginner  
 **Domain:** Programming Languages (C)

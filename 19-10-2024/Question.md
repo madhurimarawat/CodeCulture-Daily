@@ -1,4 +1,4 @@
-### Question.md: Data Visualization Using Python for NBA Dataset
+### Question: Data Visualization Using Python for NBA Dataset
 
 **Difficulty Level:** 🟡 Intermediate  
 **Domain:** Data Visualization
