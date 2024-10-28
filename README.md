@@ -66,6 +66,7 @@ By practicing daily, you'll not only sharpen your problem-solving skills but als
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/25-10-2024">25-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/25-10-2024/Question.md"> Exploring the `auto` Keyword in C++** | 🟢 Beginner | Programming Languages (C++) | Tech     | NA  |
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/26-10-2024">26-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/26-10-2024/Question.md"> Dutch National Flag Algorithm | 🟡 Intermediate | Algorithms and Data Structures (Sorting) | Tech     | NA  |
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/27-10-2024">27-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/27-10-2024/Question.md"> Next Greater Number in a Circular Array | 🟢 Beginner | Algorithms and Data Structures (Arrays) | Tech     | TBA  |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/28-10-2024">28-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/28-10-2024/Question.md"> Row Typability Challenge | 🟢 Beginner | Algorithms and Data Structures (String Processing) | Tech     | TBA  |
 
 ---
 
