@@ -1,40 +1,41 @@
-### **Question: Unique Element**
+### **Question: Unique Element Using XOR**
 
-**Difficulty Level:** 🟡 Intermediate  
-**Domain:** Algorithms and Data Structures (Binary Search)
+**Difficulty Level:** 🟢 Beginner  
+**Domain:** Algorithms and Data Structures (Bit Manipulation)
 
 ### **Objective:**
 
-Given a sorted array where every element appears exactly twice except for one unique element that appears only once, identify this unique element. The challenge requires achieving this in **O(log n)** time and **O(1)** space.
+Given a sorted array where every element appears exactly twice except for one unique element that appears only once, identify this unique element. The task should be completed in **O(n)** time and **O(1)** space by leveraging the properties of the XOR operation.
 
 ### **Conceptual Background:**
 
-The array is sorted and every element except one appears in pairs, allowing the unique element to be located efficiently with a binary search approach. Since binary search works well with sorted data and can achieve logarithmic time complexity, it's a suitable technique here.
+The XOR operation has useful properties for identifying unique elements in arrays:
+1. **XORing a number with itself** results in `0` (e.g., `a ^ a = 0`).
+2. **XORing a number with `0`** retains the original number (e.g., `a ^ 0 = a`).
+
+In an array where every element except one appears exactly twice, XORing all elements together will cancel out the pairs, leaving only the unique element.
 
 ### **Steps to Approach:**
 
-1. **Binary Search Setup:**  
-   Initialize two pointers, `left` and `right`, representing the bounds of the search range.
+1. **Initialize a Variable for XOR Accumulation:**
+   Start with a variable, `unique_ele`, set to `0`.
 
-2. **Binary Search to Locate Unique Element:**  
-   Perform binary search:
+2. **Traverse the Array Using XOR:**
+   For each element in the array, apply the XOR operation between `unique_ele` and the element.
+   
+   - Each duplicate element pair will XOR to `0`, canceling each other out.
+   - The unique element, which has no duplicate, will remain after all XOR operations.
 
-   - Calculate the midpoint `mid`.
-   - Determine if the midpoint index is even or odd.
-   - If `nums[mid]` equals `nums[mid + 1]` or `nums[mid - 1]`, the unique element is located further to the right or left respectively.
-
-3. **Narrowing Down the Search:**  
-   Adjust `left` and `right` pointers based on comparisons to ensure you converge towards the unique element efficiently. This process will conclude with the unique element at the `left` pointer once the range is narrowed down.
-
-4. **Output the Unique Element:**  
-   Once found, the element at the `left` pointer is the unique element in the array.
+3. **Return the Unique Element:**
+   Once the loop completes, `unique_ele` will hold the value of the unique element.
 
 ### **Example Execution:**
 
-- **Input:** `nums = [3,3,7,7,10,11,11]`
+- **Input:** `nums = [3, 3, 7, 7, 10, 11, 11]`
 - **Processing:**
-  - Binary search will adjust `left` and `right` pointers based on the pairing position.
-  - As the binary search narrows down, it isolates the unique element.
+  - `unique_ele` is initialized to `0`.
+  - Each element is XORed with `unique_ele`, cancelling paired elements.
+  - The unique element remains after the XOR operations.
 - **Output:** `10`
 
-This approach, leveraging binary search, ensures the solution runs in optimal time and space complexity.
+This approach is optimal in both time and space complexity, taking advantage of XOR’s properties to efficiently isolate the unique element in the array.
