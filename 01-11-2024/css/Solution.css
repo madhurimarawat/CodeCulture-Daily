@@ -1,0 +1,510 @@
+/*
+*********************************************************************************************
+* File: career-highlights.css
+* Author: Madhurima Rawat
+* Date: July 15, 2024
+* Description: Stylesheet for the career highlights section on Madhurima Rawat's personal portfolio 
+*              website, including responsive design, hover effects, color schemes, and layout adjustments.
+*              This stylesheet defines styles for headers, sections, tables, cards, and a rotating wheel 
+*              of social links. The wheel displays social links around a central logo, with each link 
+*              rotating to the center one by one. The animation continues until all links have been shown, 
+*              then repeats. After every three links, the wheel rotates anticlockwise before resuming 
+*              the clockwise rotation. The central icon and title are dynamically updated with each link.
+* Version: 1.0
+* GitHub Repository: https://github.com/madhurimarawat/Portfolio-Website
+* Issues/Bugs: For any issues or bugs, please visit the GitHub repository issues section.
+* Comments: This CSS file enhances the user experience and visual appeal of the career highlights section,
+*           ensuring consistency and responsiveness across different devices.
+* Dependencies: None
+*********************************************************************************************
+*/
+
+/* Root variables for primary colors */
+:root {
+    --primary-color: #6cb2eb;
+    /* Default color */
+}
+
+/* Header styling */
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for header h1 */
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+/* Styling for header p */
+header p {
+    margin: 5px 0 10px;
+    text-align: center;
+}
+
+/* Styling for contact links in header */
+header .contact a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Hover effect for contact links in header */
+header .contact a:hover {
+    text-decoration: underline;
+
+}
+
+/* Styling for icons in the contact section */
+.contact a i {
+    margin-right: 5px;
+
+}
+
+/* Dropdown menu styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    /* Add some space between contact links and dropdown */
+}
+
+.dropdown-toggle {
+    background-color: transparent;
+    /* Match the background with the header */
+    color: white;
+    /* Set text color to white */
+    padding: 0;
+    /* Remove padding */
+    border: none;
+    /* Remove border */
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    border-radius: 5px;
+    overflow: hidden;
+    top: 100%;
+    /* Position the dropdown below the toggle button */
+    left: 0;
+    /* Align dropdown to the left */
+    min-width: 180px;
+    /* Ensure minimum width for dropdown */
+    padding: 0;
+    /* Remove padding from dropdown menu */
+}
+
+.dropdown-menu a {
+    position: relative;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    /* Make anchor tags take full width */
+    box-sizing: border-box;
+    /* Ensure padding is included in width */
+    margin: 0;
+    /* Remove default margin */
+}
+
+.dropdown-menu a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -14px;
+    right: -5px;
+    bottom: 0;
+    background-color: var(--primary-color);
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.dropdown-menu a:hover::before {
+    transform: scaleX(1);
+}
+
+.dropdown-menu a:hover {
+    color: black;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    max-height: none;
+    /* Ensure the entire menu is shown */
+    overflow: hidden;
+    /* Hide any overflowing content */
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #FFFFF0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Section styling */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Styling for section h2 */
+section h2 {
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Table styling */
+table {
+
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styling for table cells */
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Styling for table headers */
+table th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+/* Styling for experience and project items */
+.experience-item,
+.project-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Additional styling for unordered lists */
+ul {
+    padding-left: 0;
+    /* Remove default padding */
+    list-style-position: inside;
+    /* Move bullets inside the content box */
+    text-align: center;
+    /* Center align the text */
+}
+
+/* Styling for list items in unordered lists */
+ul li {
+    display: inline-block;
+    /* Display list items as inline blocks */
+    text-align: center;
+    /* Align text within the inline-blocks */
+    margin-bottom: 10px;
+    width: 100%;
+    /* Ensure the li spans the full width */
+}
+
+/* Styling for links within list items */
+ul li a {
+    color: var(--primary-color);
+    text-decoration: none;
+
+}
+
+/* Hover effect for links within list items */
+ul li a:hover {
+    text-decoration: underline;
+
+}
+
+/* Card styling */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #FFFFF0;
+}
+
+/* Hover effect for cards */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Media queries for mobile devices */
+
+/* Styles for screens up to 600px */
+@media (max-width: 600px) {
+
+    /* Adjust contact links */
+    header .contact {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 0;
+        /* Adjust the gap value as needed */
+    }
+
+    header .contact a {
+        flex: 1 1 calc(40% - 10px);
+        /* Flex basis adjusted */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 0;
+        margin: 0;
+    }
+
+    header .contact a:hover {
+        text-decoration: underline;
+    }
+
+    /* Ensure the odd and even items align to the left and right respectively */
+    header .contact a:nth-child(odd) {
+        text-align: left;
+        /* Align odd items to the left */
+    }
+
+    header .contact a:nth-child(even) {
+        text-align: right;
+        /* Align even items to the right */
+    }
+
+    /* Dropdown specific styles */
+    header .contact .dropdown {
+        display: flex;
+        align-items: flex-start;
+        /* Align items to the left */
+        justify-content: center;
+        margin-right: 2px;
+    }
+
+    /* Ensure the table fits within the card */
+    section.card {
+        padding: 10px;
+    }
+
+    table {
+        width: 100%;
+        table-layout: fixed;
+        /* Fixed table layout */
+        overflow-x: hidden;
+        /* Prevent horizontal scrolling */
+    }
+
+    /* Ensures the table container does not overflow */
+    .table-container {
+        overflow-x: hidden;
+        /* Prevent horizontal scrolling */
+    }
+
+    table th,
+    table td {
+        padding: 8px 4px;
+        /* Adjust padding for smaller screens */
+        text-align: center;
+        /* Center-align text for readability */
+        font-size: 8px;
+    }
+}
+
+/* Styles for screens up to 360px */
+@media (max-width: 360px) {
+
+    table th,
+    table td {
+        font-size: 7px;
+        /* Further adjust font size for very small screens */
+    }
+}
+
+/* Styles for screens up to 344px */
+@media (max-width: 344px) {
+
+    table th,
+    table td {
+        font-size: 7px;
+        /* Maintain the smaller font size for consistency */
+    }
+}
+
+/* Full width card */
+.wheel {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    /* Hide overflow */
+    background: #FFFFF0;
+    /* Background color */
+    box-sizing: border-box;
+    /* Include padding and border in element's total width and height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* General styles for icons */
+.wheel .links i {
+    font-size: 24px;
+    /* Adjust size */
+    color: #333;
+    /* Default color for icons */
+    transition: color 0.3s ease;
+    /* Smooth transition for color change */
+}
+
+/* Change icon color on hover */
+.wheel .links a:hover i {
+    color: var(--primary-color);
+    /* Color on hover */
+}
+
+/* Central icon styles */
+.center i {
+    font-size: 48px;
+    /* Larger central icon size */
+    color: var(--primary-color);
+    /* Default color for central icon */
+    transition: color 0.3s ease;
+    /* Smooth transition for color change */
+}
+
+/* Change color of the central icon */
+.center i.active {
+    color: var(--primary-color);
+    /* Active color for central icon, change as needed */
+}
+
+/* Color change for central icon on hover */
+.center:hover i {
+    color: var(--primary-color);
+    /* Hover color for central icon */
+}
+
+.scale {
+    transform: scale(1.2);
+    /* Example scale effect */
+}
+
+/* Central image styling */
+.center {
+    position: absolute;
+    z-index: 1;
+}
+
+.center-image {
+    width: 100px;
+    /* Adjust size as needed */
+    height: 100px;
+    /* Adjust size as needed */
+}
+
+.center img {
+    width: 100px;
+    /* Adjust as needed */
+    height: 100px;
+    /* Adjust as needed */
+}
+
+.scale img {
+    transform: scale(1.2);
+    /* Adjust as needed */
+}
+
+/* Links container */
+.links {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Individual link styling */
+.link {
+    position: absolute;
+    font-size: 2rem;
+    /* Adjust size as needed */
+    color: #333;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s ease, color 0.5s ease;
+}
+
+.link img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Central image scaling with square border */
+.link.scale {
+    transform: scale(1.2);
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.link.scale::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    /* Adjust as needed to make corners disappear */
+    box-shadow: 0 0 10px var(--primary-color-lighter);
+    /* Add a subtle glow for effect */
+    transform: translate(-50%, -50%) scale(1.2);
+    /* Center and slightly enlarge the box */
+    z-index: -1;
+    /* Ensure it appears behind the image */
+    pointer-events: none;
+    /* Ensure the pseudo-element doesn't capture mouse events */
+}
+
+/* Ensure the image stays centered */
+.link.scale img {
+    display: block;
+    position: relative;
+    z-index: 1;
+    /* Ensure the image appears above the pseudo-element */
+    object-fit: contain;
+}

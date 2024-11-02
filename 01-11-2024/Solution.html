@@ -1,0 +1,354 @@
+<!--
+*********************************************************************************************
+* File: Solution.html
+* Author: Madhurima Rawat
+* Date: November 2, 2024
+* Description: This HTML file presents the career highlights and notable achievements of Madhurima Rawat, featured in her personal portfolio website. It encompasses a comprehensive overview of her professional and academic journey, including sections on Objective, Education, Experience, Projects, Skills, Achievements, and Hobbies.
+* Version: 1.0
+* GitHub Repository: https://github.com/madhurimarawat/Portfolio-Website
+* Issues/Bugs: For any issues or bugs, please visit the GitHub repository issues section.
+* Comments: This document is structured to effectively showcase Madhurima Rawat’s career highlights. Each section is designed to provide detailed information about her objectives, educational background, professional experience, significant projects, skills, achievements, and personal interests. The page utilizes dynamic JavaScript for a color-changing dropdown menu, which allows users to customize the page's appearance based on seasonal themes.
+* Dependencies:
+    - Font Awesome 5.15.3: Provides a comprehensive collection of icons used throughout the page for enhanced visual representation.
+    - Bootstrap 4.5.2: Ensures responsive design and layout consistency across various devices and screen sizes.
+    - JavaScript file (career-highlights.js): Manages dynamic functionalities including the color-changing dropdown menu, with features like hover effects and color selection persistence.
+    - CSS file (career-highlights.css): Contains specific styles and layout adjustments unique to the career highlights section, ensuring a cohesive look and feel.
+* Design Notes:
+    - The layout is designed with responsive web design principles in mind, adapting seamlessly to different screen sizes and devices.
+    - A central theme of user interaction is incorporated through dynamic color-changing options, adding a personalized touch to the user experience.
+    - The social links wheel section includes interactive icons that rotate to highlight different social media profiles, with specific behaviors tailored for various screen sizes and user interactions.
+*********************************************************************************************
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Madhurima Rawat's Portfolio</title>
+  <link rel="stylesheet" href="css/Solution.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Madhurima Rawat</h1>
+    <p>B.Tech Hons. - CSE (Data Science), 3rd Year 6th Semester</p>
+    <div class="contact">
+      <a href="mailto:rawatmadhurima@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+      <a class="nav-link" href="tel:+9407959924"><i class="fa fa-phone"></i> 9407959924</a>
+      <a href="https://github.com/madhurimarawat"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/madhurima-rawat/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="https://linktr.ee/madhurima_rawat" target="_blank"><i class="fa fa-link"></i> LinkTree</a>
+      <a href="index.html"><i class="fas fa-globe"></i> Portfolio</a>
+      <a href="https://madhurima-devfolio.streamlit.app/"><i class="fas fa-code"></i> Devfolio</a>
+
+      <div class="dropdown">
+        <button class="dropdown-toggle" style="font-family: Arial, sans-serif;"><i class="fas fa-palette"></i>
+          &nbsp;Theme
+        </button>
+        <div class="dropdown-menu" id="colorDropdown">
+          <a class="dropdown-item" href="#" onclick="changeColor('autumn')"
+            style="text-align: left; color: black; text-decoration: none;"><i class="fas fa-leaf"></i>Autumn</a>
+          <a class="dropdown-item" href="#" onclick="changeColor('summer')"
+            style="text-align: left; color: black; text-decoration: none;"><i class="fas fa-sun"></i>Summer</a>
+          <a class="dropdown-item" href="#" onclick="changeColor('rainy')"
+            style="text-align: left; color: black; text-decoration: none;"><i
+              class="fas fa-cloud-showers-heavy"></i>Rainy</a>
+          <a class="dropdown-item" href="#" onclick="changeColor('winter')"
+            style="text-align: left; color: black; text-decoration: none;"><i class="fas fa-snowflake"></i>Winter</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Objective Section -->
+  <section id="objective" class="card">
+    <h2><i class="fas fa-bullseye"></i> &nbsp;Objective</h2>
+    <p>
+      Passionate about continuous learning, I seek a dynamic environment to
+      apply and expand my technical skills, leveraging strong communication,
+      attention to detail, and confidence to contribute meaningfully to
+      innovative projects.
+    </p>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="card">
+    <h2><i class="fas fa-graduation-cap"></i>&nbsp;Education</h2>
+    <table>
+      <tr>
+        <th>Degree/Certificate</th>
+        <th>Institute/Board</th>
+        <th>CGPA</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td>B.Tech.</td>
+        <td>CSVTU, Bhilai</td>
+        <td>8.23 (Current)/10</td>
+        <td>2021 - Present</td>
+      </tr>
+      <tr>
+        <td>Senior Secondary</td>
+        <td>CBSE Board</td>
+        <td>First Division</td>
+        <td>2021</td>
+      </tr>
+      <tr>
+        <td>Secondary</td>
+        <td>CBSE Board</td>
+        <td>Distinction</td>
+        <td>2019</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="card">
+    <h2><i class="fas fa-business-time"></i> &nbsp;Experience</h2>
+    <div class="experience-item">
+      <h3>IIT Roorkee and Diginique Techlabs</h3>
+      <p>Student Intern - AI, ML, and DS using Python (July 2023 - Sep 2023) | <a
+          href="https://github.com/madhurimarawat/Machine-Learning-Using-Python"><i class="fab fa-github"></i>
+          GitHub</a></p>
+
+      <ul>
+        <li>
+          Developed <b>ML model web app</b> for optimizing accuracy with <b>hyperparameter tuning</b> on real-world
+          datasets.
+          Managed <b>GitHub repository</b> for organizing and sharing <b>project codes</b>.
+        </li>
+      </ul>
+    </div>
+    <div class="experience-item">
+      <h3>Uptricks Services Pvt. Ltd</h3>
+      <p>Data Science Intern (Feb 2024 - Mar 2024) | <a
+          href="https://github.com/madhurimarawat/Credit-Card-Prediction-Analysis"><i class="fab fa-github"></i>
+          GitHub</a></p>
+      <ul>
+        <li>
+          Focused on <b>retail sales forecasting</b> and <b>credit card prediction</b>, demonstrating proficiency in
+          <b>data analysis</b> and predictive modeling. Received a <b>Letter of Recommendation</b> for outstanding
+          performance.
+        </li>
+      </ul>
+    </div>
+    <div class="experience-item">
+      <h3>Mentorness</h3>
+      <p>Machine Learning Intern (Mar 2024 - Apr 2024) | <a href="https://github.com/madhurimarawat/Mentorness"><i
+            class="fab fa-github"></i> GitHub</a></p>
+      <ul>
+        <li>
+          Developed a <b>churn analysis application</b>, conducted <b>World Cup data analysis</b>, and authored an
+          insightful
+          article on hyperparameter tuning techniques.
+        </li>
+      </ul>
+    </div>
+    <div class="experience-item">
+      <h3>IIT Bhilai</h3>
+      <p>Project Intern - Data Science using Python (Feb 2024 - June 2024)</p>
+      <ul>
+        <li>
+          Contributed to the 'BSP Pre-Failure Alert Generation' project by using <b>matrix profiling to discern motifs
+            and
+            discords</b> in time series data of PLC signals, enabling the
+          identification of normal and anomalous patterns with precision. <b>Enhanced Grafana dashboards</b> for more
+          effective
+          visualization of BSP mill server data.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="card">
+    <h2><i class="fas fa-tasks"></i> &nbsp;Projects</h2>
+    <div class="project-item">
+      <h3>Library Management System</h3>
+      <p>
+        <a href="https://library-management-website.netlify.app/"><i class="fa fa-globe"></i>&nbsp;Website</a>
+        |
+
+
+        <a href="https://github.com/madhurimarawat/Library-Management-System"><i class="fab fa-github"></i> GitHub</a>
+      </p>
+      <ul>
+        <li>
+          <b>Developed</b> and <b>deployed</b> this website, <b>enhancing user management</b> and the overall library
+          experience with a <b>user-friendly interface</b> for efficient processes.
+        </li>
+      </ul>
+    </div>
+    <div class="project-item">
+      <h3>HyperTuneML Platform</h3>
+      <p>
+        <a href="https://github.com/madhurimarawat/ML-Model-Datasets-Using-Streamlits"><i
+            class="fa fa-globe"></i>&nbsp;Website</a>
+        |
+        <a href="https://github.com/madhurimarawat/ML-Model-Datasets-Using-Streamlits"><i class="fab fa-github"></i>
+          GitHub</a>
+      </p>
+      <ul>
+        <li>
+          Developed a <b>Streamlit-based ML model web app</b> that demonstrates improved <b>model accuracy</b> through
+          <b>hyperparameter tuning</b> on diverse <b>real-world datasets</b>. Designed for learners of all levels,
+          providing
+          <b>practical insights</b> into predictive analytics.
+        </li>
+      </ul>
+    </div>
+    <div class="project-item">
+      <h3>Web Scraper</h3>
+      <p>
+        <a href="https://web-scrapper-functions-h6phqofpkjtaylwyn9uvzf.streamlit.app/"><i
+            class="fa fa-globe"></i>&nbsp;Website</a>
+        |
+        <a href="https://github.com/madhurimarawat/Web-Scrapper-Functions"><i class="fab fa-github"></i> GitHub</a>
+      </p>
+      <ul>
+        <li>
+          Developed a Streamlit-based <b>Python web scraper</b> for <b>extracting text, images, and PDFs</b> from
+          websites in
+          <b>zip file</b>. Utilized Streamlit for frontend and Python libraries like Requests, lxml, Beautiful Soup and
+          PyPDF2.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+
+  <section id="skills" class="card">
+    <h2><i class="fas fa-lightbulb"></i> &nbsp; Skills</h2>
+    <ul>
+      <li>
+        <i class="fas fa-code"></i>&nbsp;<strong>Programming Languages:</strong> C++, Python, C, R*, Ruby*,
+        Javascript*, PHP*, Java*, MATLAB*
+      </li>
+      <li>
+        <i class="fas fa-laptop-code"></i>&nbsp; <strong>Web Technologies:</strong> HTML, CSS, Bootstrap, Streamlit,
+        Flask*
+      </li>
+      <li><i class="fas fa-database">&nbsp;</i><strong>Database management:</strong> MySQL, Influxdb</li>
+      <li>
+        <i class="fas fa-pencil-ruler"></i>&nbsp;<strong>IDE:</strong> VS Code, Pycharm, Jupyter Notebooks, komodo*
+      </li>
+      <li>
+        <i class="fas fa-tools"></i>&nbsp;<strong>Miscellaneous:</strong> GitHub, Grafana, Machine Learning, Web
+        Scraping
+      </li>
+      <li>
+        <i class="fas fa-user-check"></i>&nbsp;<strong>Soft Skills:</strong> Adaptability, Attention to Detail,
+        Open-mindedness, Proficient Communicator, Quick Learner
+      </li>
+    </ul>
+    <p>* Elementary Proficiency</p>
+  </section>
+
+  <!-- Achievements Section -->
+
+  <section id="achievements" class="card">
+    <h2><i class="fas fa-trophy"></i> &nbsp;Achievements</h2>
+    <ul>
+      <li>
+        <a href="https://drive.google.com/file/d/1s7wv4q-Wc0NOSf_hViKzag-7UkS4c7PC/view">NEP Conference Presenter</a>
+        - Engaged the audience at the NEP Conference with a concise
+        presentation on the rich heritage and culture of my home state.
+        Contributed diverse perspectives, fostering cultural awareness.
+      </li>
+      <li>
+        <a href="https://github.com/madhurimarawat">GitHub Profile</a> -
+        Diverse ML and programming projects, impactful internship
+        contributions. Meticulously documented with beginner-friendly
+        instructions for an innovative and visually appealing coding profile.
+      </li>
+      <li>
+        <a href="https://hackerrank.com/rawatmadhurima4">HackerRank Proficiency</a>
+        - Earned a commendable 5-star HackerRank rating in Python and MySQL,
+        showcasing intermediate Python and beginner-level SQL skills, with a
+        notable 3-star rating in C programming.
+      </li>
+    </ul>
+  </section>
+
+  <!-- Hobbies Section -->
+
+  <section id="hobbies-and-interests" class="card">
+    <h2><i class="fas fa-star"></i> &nbsp;Hobbies</h2>
+    <ul>
+      <li><a href="#">Art Exploration</a> - I love exploring various forms of art, from painting to digital
+        illustration,
+        finding inspiration in every stroke <i class="fas fa-paint-brush"></i>.</li>
+      <li><a href="#">Online Literature</a> - I read a lot of online stories and books, immersing myself in different
+        worlds
+        and narratives <i class="fas fa-book"></i>.</li>
+      <li><a href="#">Diverse Music</a> - I love listening to music with songs from all genres, appreciating the unique
+        rhythms and melodies each offers <i class="fas fa-music"></i>.</li>
+      <li><a href="#">Nature Photography</a> - I enjoy capturing nature's beauty, from serene landscapes to vibrant
+        wildlife,
+        and post photos on <a href="https://www.pinterest.com/rawatmadhurima4/" target="_blank"
+          style="color: black">Pinterest <i class="fab fa-pinterest" style="color: black"></i></a>.</li>
+    </ul>
+  </section>
+
+
+  <!-- Social Links Section -->
+
+  <section id="social-links-section" class="card">
+    <h2><i class="fas fa-share-alt"></i> &nbsp;Socials</h2>
+    <div class="wheel">
+      <div class="center">
+        <a href="#" target="_blank">
+          <i class="fas fa-handshake" title="Central Title"></i>
+        </a>
+      </div>
+
+      <div class="links">
+        <a href="https://github.com/madhurimarawat" class="link" target="_blank" title="GitHub Profile">
+          <i class="fab fa-github" title="GitHub Profile"></i>
+        </a>
+        <a href="https://madhurimarawat.github.io/Portfolio-Website/" class="link" target="_blank"
+          title="Portfolio Website">
+          <i class="fas fa-briefcase" title="Portfolio Website"></i>
+        </a>
+        <a href="https://madhurima-devfolio.streamlit.app/" class="link" target="_blank" title="Devfolio">
+          <i class="fas fa-laptop-code" title="Devfolio"></i>
+        </a>
+        <a href="https://www.hackerrank.com/rawatmadhurima4" class="link" target="_blank" title="Hackerrank Profile">
+          <i class="fab fa-hackerrank" title="Hackerrank Profile"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/madhurima-rawat/" class="link" target="_blank" title="LinkedIn Profile">
+          <i class="fab fa-linkedin" title="LinkedIn Profile"></i>
+        </a>
+        <a href="https://linktr.ee/madhurima_rawat" class="link" target="_blank" title="Link Tree Profile">
+          <i class="fas fa-link" title="Link Tree Profile"></i>
+        </a>
+        <a href="https://alison.com/profile/31860447" class="link" target="_blank" title="Alison Profile">
+          <i class="fas fa-graduation-cap" title="Alison Profile"></i>
+        </a>
+        <a href="https://x.com/madhurima_47524" class="link" target="_blank" title="Twitter Profile">
+          <i class="fab fa-twitter" title="Twitter Profile"></i>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100077348301764" class="link" target="_blank"
+          title="Facebook Profile">
+          <i class="fab fa-facebook" title="Facebook Profile"></i>
+        </a>
+        <a href="https://instagram.com/madhurima8487" class="link" target="_blank" title="Instagram Profile">
+          <i class="fab fa-instagram" title="Instagram Profile"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+<!--  Custom JavaScript File -->
+<!-- With this script, the dropdown disappears after a set time once an option is selected. 
+Alternatively, using the `colorSwitcher` file keeps the dropdown visible until the user clicks elsewhere on the website. -->
+<script src="js/Solution.js"></script>
+
+</html>
