@@ -68,8 +68,10 @@ By practicing daily, you'll not only sharpen your problem-solving skills but als
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/27-10-2024">27-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/27-10-2024/Question.md"> Next Greater Number in a Circular Array | 🟢 Beginner | Algorithms and Data Structures (Arrays) | Tech     | TBA  |
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/28-10-2024">28-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/28-10-2024/Question.md"> Row Typability Challenge | 🟢 Beginner | Algorithms and Data Structures (String Processing) | Tech     | NA  |
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/29-10-2024">29-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/29-10-2024/Question.md"> Unique Element Using XOR | 🟢 Beginner | Algorithms and Data Structures (Bit Manipulation) | Tech     | NA  |
-| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/30-10-2024">30-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/30-10-2024/Question.md"> Capital Usage Validator | 🟢 Beginner | String Processing (Validation) | Tech     | TBA  |
-
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/30-10-2024">30-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/30-10-2024/Question.md"> Capital Usage Validator | 🟢 Beginner | String Processing (Validation) | Tech     | NA  |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/31-10-2024">31-10-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/31-10-2024/Question.md"> Diya Harmony Pattern Printer | 🟢 Beginner | Loops and Patterns | Tech     | NA  |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/01-11-2024">01-11-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/01-11-2024/Question.md"> Portfolio Webpage Creation, Deployment, and Documentation| 🔴 Advanced | Web Development | Tech     | NA  |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/02-11-2024">02-11-2024</a> |  <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/02-11-2024/Question.md"> Conduct a SWOT Analysis of a Role or Career Path | 🟡 Intermediate | Career Development / Professional Growth | Non-Tech     | TBA  |
 
 
 ---
