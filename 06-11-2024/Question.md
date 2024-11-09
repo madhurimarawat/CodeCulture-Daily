@@ -1,4 +1,4 @@
-### **Base 7 String Representation**
+### **Question: Base 7 String Representation**
 
 **Difficulty Level:** 🟢 Beginner  
 **Domain:** Number Systems and Base Conversions
