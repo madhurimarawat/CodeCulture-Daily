@@ -140,7 +140,7 @@ Below are the previews of the designed website for the CodeCulture Daily project
 
 <a href = "https://madhurimarawat.github.io/CodeCulture-Daily/"><img src = "https://github.com/user-attachments/assets/a3bfeab0-aa38-47ed-ad07-3a9a7b8906c7" title= "Website Main Page" alt = "Website Main Page"></a>
 
-<a href = "https://madhurimarawat.github.io/CodeCulture-Daily/" title= "Website Main Page" alt = "Website Main Page"><img src = "https://github.com/user-attachments/assets/4543347b-4c02-41b4-99f7-74dfedef6049"></a>
+<a href = "https://madhurimarawat.github.io/CodeCulture-Daily/" title= "Website Main Page" alt = "Website Main Page"><img src = "https://github.com/user-attachments/assets/9b96cf42-ca29-42e7-831e-5ac922cc0018"></a>
 
 <a href = "https://madhurimarawat.github.io/CodeCulture-Daily/Documentation.html" title= "Website Documenatation Page" alt = "Website Documenatation Page"><img src = "https://github.com/user-attachments/assets/120358e2-81c3-4598-a72a-818d2e2f481a"></a>
 
