@@ -78,7 +78,11 @@ By practicing daily, you'll not only sharpen your problem-solving skills but als
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/06-11-2024">06-11-2024</a> | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/06-11-2024/Question.md"> Base 7 String Representation                              | 🟢 Beginner     | Number Systems and Base Conversions                | Tech     | NA         |
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/07-11-2024">07-11-2024</a> | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/07-11-2024/Question.md"> Pattern Printing Question                                 | 🟢 Beginner     | Patterns and Loops                                 | Tech     | NA         |
 | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/08-11-2024">08-11-2024</a> | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/08-11-2024/Question.md"> Pyramid Pattern Printing                                  | 🟢 Beginner     | Patterns and Loops                                 | Tech     | NA         |
-| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/09-11-2024">09-11-2024</a> | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/09-11-2024/Question.md"> Descendo-Pyramid Pattern Printing                         | 🟢 Beginner     | Patterns and Loops                                 | Tech     | TBA        |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/09-11-2024">09-11-2024</a> | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/09-11-2024/Question.md"> Descendo-Pyramid Pattern Printing                         | 🟢 Beginner     | Patterns and Loops                                 | Tech     | NA        |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/10-11-2024">10-11-2024</a> | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/10-11-2024/Question.md"> Find the Next Greater Element in Array                         | 🟡 Intermediate     | Arrays and Searching                                 | Tech     | NA        |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/11-11-2024">11-11-2024</a> | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/11-11-2024/Question.md"> Equal Contiguous Array                         | 🟢 Beginner     | Arrays and Searching                                 | Tech     | NA        |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/12-11-2024">12-11-2024</a> | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/12-11-2024/Question.md"> Persuade a Colleague to Support Diwali Celebration at the Workplace                         | 🟢 Beginner     | Teamwork and Communication                                 | Non-Tech     | NA        |
+| <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/tree/main/13-11-2024">13-11-2024</a> | <a href = "https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/13-11-2024/Question.md"> Workload Conflict Resolution                         | 🟢 Beginner     | Conflict Resolution and Teamwork                                 | Non-Tech     | NA        |
 
 ---
 
@@ -186,6 +190,23 @@ To submit a solution, follow these steps:
 ## 📜 License
 
 This project is licensed under the MIT License – see the [LICENSE](https://github.com/madhurimarawat/CodeCulture-Daily/blob/main/LICENSE) file for details.
+
+---
+
+## 🎉 The Journey of Learning: [39 Days 39 Problems]  
+
+- 🚀 **An Incredible Experience:** Completing this series of daily challenges from *06-10-2024 to 13-11-2024* — spanning **39 days** and **39 problems** — has been an immensely rewarding and memorable adventure.  
+- 🤝 **For the Community:** This repository is crafted for coders who face hurdles with daily challenges or seek reliable solutions to strengthen their skills.  
+- 😄 **Keeping It Fun:** A dash of humor is woven in to ensure the journey remains enjoyable and engaging for everyone.  
+- 💡 **Real-Life Impact:** The included real-life and soft skills interview questions aim to prepare developers for both technical and interpersonal scenarios.  
+- 🌐 **Web Development in Action:** The portfolio website tasks demonstrate the practical use of HTML and CSS, helping coders grasp their implementation in real-world projects.  
+- 📊 **Key Milestone:** With **39 problems solved**, the repository blends coding challenges with creative exercises to promote growth.  
+- ⏸️ **A Temporary Pause:** Other commitments demand my focus, so I’ll be stepping back from active maintenance for now. However, I’m confident the repository will continue to serve the community.  
+- 🙌 **Open to Contributions:**  
+  - Coders are welcome to share their solutions to existing problems.  
+  - New challenges and ideas are always encouraged to keep the project evolving!  
+- 🔄 **Future Aspirations:** When time permits, I hope to return and expand this repository further.  
+- ✨ **Gratitude:** This journey has been truly meaningful, and I’m optimistic it will be a valuable resource for coders aiming to level up their skills.  
 
 ---
 
