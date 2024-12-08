@@ -2,7 +2,7 @@
 //*********************************************************************************************
 //* File: index.js
 //* Author: Madhurima Rawat
-//* Date: October 10, 2024
+//* Date: December 08, 2024
 //* Description: JavaScript functionality for the main page of the CodeCulture Daily platform,
 //*               providing smooth scrolling behavior for navigation links, enhancing user
 //*               experience and interaction with the page content.
@@ -20,6 +20,19 @@
 //*     ensuring a seamless experience across different screen sizes.
 //*********************************************************************************************
 //
+
+// Centering today's problem card
+// Run when DOM content is fully loaded
+document.addEventListener("DOMContentLoaded", function () {
+    // Select elements with the class 'centerRow_1'
+    var contentRows = document.querySelectorAll(".centerRow_1");
+
+    contentRows.forEach(function (contentRow) {
+        // Add Flexbox classes to center align the content
+        contentRow.classList.add("d-flex", "justify-content-center");
+    });
+});
+
 
 // Smooth scroll to the Problems section
 document.querySelector('.nav-link[href="#problems"]').addEventListener('click', function (event) {
