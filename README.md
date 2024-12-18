@@ -210,7 +210,13 @@ This project is licensed under the MIT License – see the [LICENSE](https://git
   - Coders are welcome to share their solutions to existing problems.  
   - New challenges and ideas are always encouraged to keep the project evolving!  
 - 🔄 **Future Aspirations:** When time permits, I hope to return and expand this repository further.  
-- ✨ **Gratitude:** This journey has been truly meaningful, and I’m optimistic it will be a valuable resource for coders aiming to level up their skills.  
+- ✨ **Gratitude:** This journey has been truly meaningful, and I’m optimistic it will be a valuable resource for coders aiming to level up their skills.
+
+---
+
+## Resources
+
+Logos and images were generated using ChatGPT: <a href = "https://chatgpt.com/">ChatGPT</a>
 
 ---
 
@@ -225,11 +231,3 @@ This project is licensed under the MIT License – see the [LICENSE](https://git
 
 - **Follow this repo** to get notified about new challenges and updates! ⭐
 - 👩‍💻 **Happy Coding!**
-
----
-
-## Resources
-
-In this section, we will provide links to all the resources utilized in this project:
-
-1. Logos and images were generated using ChatGPT: <a href = "https://chatgpt.com/">ChatGPT</a>
