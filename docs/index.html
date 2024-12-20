@@ -2,7 +2,7 @@
 *********************************************************************************************
 * File: index.html
 * Author: Madhurima Rawat
-* Date: December 19, 2024
+* Date: December 20, 2024
 * Description: Main HTML page for the CodeCulture Daily platform, featuring a carousel 
 *               for showcasing images, a navigation bar, and sections for daily and 
 *               previous challenges. The layout is designed for responsiveness and user 
@@ -45,8 +45,23 @@
     <meta name="author" content="Madhurima Rawat">
     <meta name="robots" content="index, follow">
 
-    <!-- Specifies the publication date in ISO 8601 format to enhance SEO and indicate content relevance. -->
-    <meta name="date" content="2024-10-10" />
+    <!-- 
+    Specifies the publication date and time in ISO 8601 format. 
+    The structure includes:
+    - Date in YYYY-MM-DD format: 
+      YYYY = 4-digit year (e.g., 2024)
+      MM   = 2-digit month (e.g., 10 for October)
+      DD   = 2-digit day (e.g., 10)
+    - A literal 'T' separator between date and time.
+    - Time in HH:MM:SS format: 
+      HH = 2-digit hour in 24-hour format (e.g., 08 for 8 AM in UTC)
+      MM = 2-digit minutes (e.g., 59)
+      SS = 2-digit seconds (e.g., 06)
+    - 'Z' at the end indicates the time is in Coordinated Universal Time (UTC).
+    Example: "2024-10-10T08:59:06Z" represents October 10, 2024, at 8:59:06 AM UTC.
+    -->
+    <meta name="date" content="2024-10-10T08:59:06Z" />
+
 
     <!-- Open Graph Meta Tags for Social Sharing -->
     <meta property="og:title" content="CodeCulture Daily - Elevate Your Coding Skills" />
